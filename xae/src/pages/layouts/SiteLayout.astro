@@ -1,0 +1,24 @@
+---
+
+---
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Xae</title>
+</head>
+
+<body>
+    <div class="wrapper flex flex-col w-full h-screen m-0 p-0 bg-center bg-no-repeat">
+        <slot />
+    </div>
+</body>
+
+</html>
+<style>
+    .wrapper {
+        background-image: url('/box.svg'), linear-gradient(to left, rgba(12, 12, 12, 1), rgba(44, 69, 80, 1));
+    }
+</style>
