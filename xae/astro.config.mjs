@@ -6,7 +6,7 @@ export default defineConfig({
   integrations: [tailwind()],
   vite: {
     ssr: {
-      noExternal: ["@fontsource/poppins"],
+      noExternal: ["astro","@fontsource/poppins"],
     },
   },
 });
