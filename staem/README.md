@@ -1,38 +1,30 @@
-# create-svelte
+![staemImage](https://user-images.githubusercontent.com/45125575/194755307-ca03aab5-f432-4d16-9b27-22a1ec28cadf.jpg)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Link: https://staem-fahari.vercel.app/
 
-## Creating a project
+### Staem
 
-If you're seeing this, you've probably already done this step. Congrats!
+A design make over for the popular video game digital distribution service and storefront by Valve.
 
-```bash
-# create a new project in the current directory
-npm init svelte
+## Design Inspiration
 
-# create a new project in my-app
-npm init svelte my-app
+This is a design challenge by Zernonia.
+
+[I Design, You Build! - Frontend Challenge #4 (Supabase version)](https://blog.zernonia.com/i-design-you-build-frontend-challenge-4-supabase-version)
+
+### Technologies Used
+
+- Sveltekit
+- TypeScript
+- TailwindCss
+- Daisy UI
+- SupaBase
+
+### Building
+
 ```
+1. Clone the Repo Staem
+2. 'npm run dev'
+3. Have fun Tinkering
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
